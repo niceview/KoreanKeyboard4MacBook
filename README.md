@@ -106,5 +106,6 @@ KoreanKeyboard4MacBook
 터미널에서 
 <pre>bin/install.sh</pre>
 라고 입력하면 KeyRemap4MacBook의 개인화 설정 파일인 private.xml을 덮어쓴 후 reload합니다.
+본 스크립트를 사용하기 전에 [KeyRemap4MacBook](http://pqrs.org/macosx/keyremap4macbook/)이 미리 설치되어있어야합니다.
 
 
