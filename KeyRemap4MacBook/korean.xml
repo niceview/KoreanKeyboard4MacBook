@@ -26,31 +26,31 @@
     <item>
       <name>Make Command_R, Option_R as HanEng, Hanja keys (only in virtual machine, RDC)</name>
       <item>
+        <name>see https://github.com/niceview/KoreanKeyboard4MacBook</name>
+      </item>
+      <item>
         <name>Command_R to HanEng / Option_R to Hanja</name>
-        <appendix>(it works with Key remapping in virtual machine. see http://...)</appendix>
+        <appendix>(it works with Key remapping in virtual machine.)</appendix>
         <only>VIRTUALMACHINE, REMOTEDESKTOPCONNECTION</only>
         <identifier>remap.commandR2ksc_haneng_optionR2ksc_hanja</identifier>
         <autogen>__KeyToKey__ KeyCode::COMMAND_R, KeyCode::JIS_KANA, Option::NOREPEAT</autogen>
         <autogen>__KeyToKey__ KeyCode::OPTION_R, KeyCode::JIS_EISUU, Option::NOREPEAT</autogen>
-
       </item>
       <item>
-        <name>Command_R to Option_R / Option_R to Command_R</name>
+        <name>Command_R to Alt_R / Option_R to Ctrl_R</name>
         <appendix>(it works with Korean Keyboard Type 1)</appendix>
         <only>VIRTUALMACHINE, REMOTEDESKTOPCONNECTION</only>
         <identifier>remap.commandR2optionR_optionR2commandR</identifier>
         <autogen>__KeyToKey__ KeyCode::COMMAND_R, KeyCode::OPTION_R, Option::NOREPEAT</autogen>
-        <autogen>__KeyToKey__ KeyCode::OPTION_R, KeyCode::COMMAND_R, Option::NOREPEAT</autogen>
-
-      </item>      
+        <autogen>__KeyToKey__ KeyCode::OPTION_R, KeyCode::CONTROL_R, Option::NOREPEAT</autogen>
+      </item>
       <item>
-        <name>Command_R to Shift+Space / Option_R to Command+Space</name>
+        <name>Command_R to Shift+Space / Option_R to Ctrl+Space</name>
         <appendix>(it works with Korean Keyboard Type 3)</appendix>
         <only>VIRTUALMACHINE, REMOTEDESKTOPCONNECTION</only>
         <identifier>remap.commandR2shiftSpace_optionR2commandSpace</identifier>
         <autogen>__KeyToKey__ KeyCode::COMMAND_R, KeyCode::SPACE, VK_SHIFT, Option::NOREPEAT</autogen>
-        <autogen>__KeyToKey__ KeyCode::OPTION_R, KeyCode::SPACE, VK_COMMAND, Option::NOREPEAT</autogen>
-
+        <autogen>__KeyToKey__ KeyCode::OPTION_R, KeyCode::SPACE, VK_CONTROL, Option::NOREPEAT</autogen>
       </item>
     </item>
     <item>
