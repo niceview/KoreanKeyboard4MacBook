@@ -6,36 +6,36 @@ KoreanKeyboard4MacBook
 ## 윈도우 키보드 드라이버
 윈도우 한영키 사용을 위한 레지스트리 파일입니다. 윈도우에서 한영키가 있는 키보드를 위한 드라이버는 4가지가 있습니다. ([위키백과](http://ko.wikipedia.org/wiki/%EC%96%B8%EC%96%B4_%EC%9E%85%EB%A0%A5_%ED%82%A4))
 
-<table class="wikitable">
-<tbody><tr>
-<th>드라이버 이름</th>
-<th><kbd class="keyboard-key" style="border: 1px solid; border-color: #ddd #bbb #bbb #ddd; border-bottom-width: 2px; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; background-color: #f9f9f9; padding: 1px 3px; font-family: inherit; font-size: 0.85em; white-space: nowrap;">한/영</kbd> 대체 키</th>
-<th><kbd class="keyboard-key" style="border: 1px solid; border-color: #ddd #bbb #bbb #ddd; border-bottom-width: 2px; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; background-color: #f9f9f9; padding: 1px 3px; font-family: inherit; font-size: 0.85em; white-space: nowrap;">한자</kbd> 대체 키</th>
-</tr>
-<tr>
-<th>PC/AT 101키 호환 키보드(종류 1)</th>
-<td>오른쪽 <kbd class="keyboard-key" style="border: 1px solid; border-color: #ddd #bbb #bbb #ddd; border-bottom-width: 2px; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; background-color: #f9f9f9; padding: 1px 3px; font-family: inherit; font-size: 0.85em; white-space: nowrap;">Alt</kbd></td>
-<td>오른쪽 <kbd class="keyboard-key" style="border: 1px solid; border-color: #ddd #bbb #bbb #ddd; border-bottom-width: 2px; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; background-color: #f9f9f9; padding: 1px 3px; font-family: inherit; font-size: 0.85em; white-space: nowrap;">Ctrl</kbd></td>
-</tr>
-<tr>
-<th>PC/AT 101키 호환 키보드(종류 2)</th>
-<td>오른쪽 <kbd class="keyboard-key" style="border: 1px solid; border-color: #ddd #bbb #bbb #ddd; border-bottom-width: 2px; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; background-color: #f9f9f9; padding: 1px 3px; font-family: inherit; font-size: 0.85em; white-space: nowrap;">Ctrl</kbd></td>
-<td>오른쪽 <kbd class="keyboard-key" style="border: 1px solid; border-color: #ddd #bbb #bbb #ddd; border-bottom-width: 2px; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; background-color: #f9f9f9; padding: 1px 3px; font-family: inherit; font-size: 0.85em; white-space: nowrap;">Alt</kbd></td>
-</tr>
-<tr>
-<th>PC/AT 101키 호환 키보드(종류 3)</th>
-<td><kbd class="keyboard-key" style="border: 1px solid; border-color: #ddd #bbb #bbb #ddd; border-bottom-width: 2px; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; background-color: #f9f9f9; padding: 1px 3px; font-family: inherit; font-size: 0.85em; white-space: nowrap;"><span class="Unicode">⇧</span> Shift</kbd>+<kbd class="keyboard-key" style="border: 1px solid; border-color: #ddd #bbb #bbb #ddd; border-bottom-width: 2px; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; background-color: #f9f9f9; padding: 1px 3px; font-family: inherit; font-size: 0.85em; white-space: nowrap;">Space</kbd></td>
-<td><kbd class="keyboard-key" style="border: 1px solid; border-color: #ddd #bbb #bbb #ddd; border-bottom-width: 2px; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; background-color: #f9f9f9; padding: 1px 3px; font-family: inherit; font-size: 0.85em; white-space: nowrap;">Ctrl</kbd>+<kbd class="keyboard-key" style="border: 1px solid; border-color: #ddd #bbb #bbb #ddd; border-bottom-width: 2px; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; background-color: #f9f9f9; padding: 1px 3px; font-family: inherit; font-size: 0.85em; white-space: nowrap;">Space</kbd></td>
-</tr>
-<tr>
-<th>한글 키보드(103/106키)</th>
-<td>없음</td>
-<td>없음</td>
-</tr>
-</tbody></table>
+<table class="">
+	<tr>
+		<th>드라이버 이름</th>
+		<th><kbd>한/영</kbd> 대체 키</th>
+		<th><kbd>한자</kbd> 대체 키</th>
+	</tr>
+	<tr>
+		<th>PC/AT 101키 호환 키보드(종류 1)</th>
+		<td>오른쪽 <kbd>Alt</kbd></td>
+		<td>오른쪽 <kbd>Ctrl</kbd></td>
+	</tr>
+	<tr>
+		<th>PC/AT 101키 호환 키보드(종류 2)</th>
+		<td>오른쪽 <kbd>Ctrl</kbd></td>
+		<td>오른쪽 <kbd>Alt</kbd></td>
+	</tr>
+	<tr>
+		<th>PC/AT 101키 호환 키보드(종류 3)</th>
+		<td><kbd>Shift</kbd>+<kbd>Space</kbd></td>
+		<td><kbd>Ctrl</kbd>+<kbd>Space</kbd></td>
+	</tr>
+	<tr>
+		<th>한글 키보드(103/106키)</th>
+		<td>없음</td>
+		<td>없음</td>
+	</tr>
+</table>
 
 
-아래의 레지스트리를 통해 윈도우에서 키보드 드라이버를 바꿀 수 있습니다. 
+아래의 레지스트리를 통해 윈도우에서 키보드 드라이버를 바꿀 수 있습니다. ([마이크로소프트 기술문서](http://support.microsoft.com/kb/927824/ko))
 
 ## 파일 설명
 각 디렉토리별 파일은 다음과 같습니다.
