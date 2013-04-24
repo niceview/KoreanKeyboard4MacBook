@@ -35,7 +35,7 @@ KoreanKeyboard4MacBook
 </tbody></table>
 
 
- 아래의 레지스트리를 통해 윈도우에서 키보드 드라이버를 바꿀 수 있습니다. [http://support.microsoft.com/kb/927824/ko](http://support.microsoft.com/kb/927824/ko)
+ 아래의 레지스트리를 통해 윈도우에서 키보드 드라이버를 바꿀 수 있습니다. ([http://support.microsoft.com/kb/927824/ko](http://support.microsoft.com/kb/927824/ko))
 
 ## 파일 설명
 각 디렉토리별 파일은 다음과 같습니다.
