@@ -57,15 +57,15 @@ KoreanKeyboard4MacBook
 	</tr>
 	<tr>
 		<td><code>Korean_101_keyboard_type_1.reg</code></td>
-		<td>키보드 드라이버를 <code>PC/AT 101키 호환 키보드(종류 1)</code> 로 설정</td>
+		<td>키보드 드라이버를 <code>PC/AT 101키 호환 키보드(종류 1)</code>로 설정</td>
 	</tr>
 	<tr>
 		<td><code>Korean_101_keyboard_type_3.reg</code></td>
-		<td>키보드 드라이버를 <code>PC/AT 101키 호환 키보드(종류 2)</code> 로 설정</td>
+		<td>키보드 드라이버를 <code>PC/AT 101키 호환 키보드(종류 3)</code>로 설정</td>
 	</tr>
 	<tr>
 		<td><code>Korean_103_106_keyboard.reg</td>
-		<td>키보드 드라이버를 <code>한글 키보드(103/106키)</code> 로 설정</td>
+		<td>키보드 드라이버를 <code>한글 키보드(103/106키)</code>로 설정</td>
 	</tr>
 </table>
 
@@ -100,13 +100,13 @@ KoreanKeyboard4MacBook
 ## 설치
 
 ### 레지스트리
-필요한 설정에 맞게 윈도우에서 <code>.reg</code> 파일을 열어서 레지스트리에 등록하고 재부팅합니다.
+필요한 설정에 맞게 윈도우에서 <code>.reg</code> 파일을 열어서 레지스트리에 등록하고 윈도우를 재부팅합니다.
 
 ### KeyRemap4MacBook
 파일을 다운로드 받은 후 터미널에서 
 <pre>bin/install.sh</pre>
 라고 입력하면 KeyRemap4MacBook의 개인화 설정 파일인 private.xml을 덮어쓴 후 reload합니다.
-본 스크립트를 사용하기 전에 [KeyRemap4MacBook](http://pqrs.org/macosx/keyremap4macbook/)이 미리 설치되어있어야합니다.
+본 스크립트를 사용하기 전에 [KeyRemap4MacBook](http://pqrs.org/macosx/keyremap4macbook/)이 미리 설치되어 있어야 합니다.
 
 ## KeyRemap4MacBook에서 사용하기
 기본적으로 <kbd>Command</kbd>+<kbd>Space</kbd>키를 한영 전환으로 사용하도록 설정해야 다음 설정들을 유효하게 사용할 수 있습니다.
@@ -125,22 +125,22 @@ KoreanKeyboard4MacBook
 	- Command_R to HanEng / Option_R to Hanja
 		<pre>
 		<code>한글 키보드(103/106키)</code>로 설정된 환경에서 사용합니다.
-		오른쪽 <kbd>Command</kbd>키와 오른쪽 <kbd>Option</kbd>키가 입력되면 한영키, 한자키가 전송되도록 합니다.
+		오른쪽<kbd>Command</kbd>키와 오른쪽<kbd>Option</kbd>키가 입력되면 각각 한영키, 한자키가 전송되도록 합니다.
 		윈도우에 <code>HanEng_Hanja_for_virtual_machine.reg</code>가 등록되어있어야 합니다.
 		</pre>
 	- Command_R to Alt_R / Option_R to Ctrl_R
 		<pre><code>PC/AT 101키 호환 키보드(종류 1)</code>로 설정된 환경에서 사용할 수 있습니다.</pre>
 	- Command_R to Shift+Space / Option_R to Ctrl+Space
-		<pre><code>PC/AT 101키 호환 키보드(종류 2)</code>로 설정된 환경에서 사용할 수 있습니다.</pre>
+		<pre><code>PC/AT 101키 호환 키보드(종류 3)</code>로 설정된 환경에서 사용할 수 있습니다.</pre>
 - Make external keyboard HanEng, Hanja keys work in mac (except virtual machine, RDC)
 	<pre>
-	외장키보드를 사용할 경우 한영키, 한자키를 맥 환경에서 한영전환과 한자 입력에 사용할 수 있게 합니다.
-	윈도우 환경에서도 사용하기 위해서는 <code>HanEng_Hanja_for_virtual_machine.reg</code>가 등록되어있어야 합니다.
+	외장키보드의 한영키, 한자키를 맥 환경에서 한영전환과 한자 입력에 사용할 수 있게 합니다.
+	윈도우 환경에서는 <code>HanEng_Hanja_for_virtual_machine.reg</code>가 등록되어 있어야 합니다.
 	</pre>
 	- HanEng Key to Command+Space
-		<pre>한영키를 맥 환경에서 한영전환에 사용합니다.</pre>
+		<pre>외장키보드의 한영키를 맥 환경에서 한영전환에 사용합니다.</pre>
 	- Hanja Key to Option+Return
-		<pre>한영키를 맥 환경에서 한자입력에 사용합니다.</pre>
+		<pre>외장키보드의 한영키를 맥 환경에서 한자입력에 사용합니다.</pre>
 	
 ### 추천 설정
 오른쪽<kbd>Command</kbd>키와 오른쪽<kbd>Option</kbd>키를 한영전환과 한자 입력에 사용하기 위해서,
