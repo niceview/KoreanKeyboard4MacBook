@@ -57,12 +57,12 @@
       <name>Make external keyboard HanEng, Hanja keys work in mac (except virtual machine, RDC)</name>
       <item>
         <name>HanEng Key to Command+Space</name>
-        <identifier>remap.ksc_haneng2commandSpace</identifier>
+        <identifier>remap.haneng2commandSpace</identifier>
         <autogen>__KeyToKey__ KeyCode::JIS_KANA, KeyCode::SPACE, ModifierFlag::COMMAND_L, Option::NOREPEAT</autogen>
       </item>
       <item>
         <name>Hanja Key to Option+Return</name>
-        <identifier>remap.ksc_hanja2optionReturn</identifier>
+        <identifier>remap.hanja2optionReturn</identifier>
         <autogen>__KeyToKey__ KeyCode::JIS_EISUU, KeyCode::OPTION_L, KeyCode::RETURN, ModifierFlag::OPTION_L, Option::NOREPEAT</autogen>
       </item>
     </item>
