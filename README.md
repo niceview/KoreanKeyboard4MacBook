@@ -103,7 +103,7 @@ KoreanKeyboard4MacBook
 필요한 설정에 맞게 윈도우에서 <code>.reg</code> 파일을 열어서 레지스트리에 등록하고 재부팅합니다.
 
 ### KeyRemap4MacBook
-터미널에서 
+파일을 다운로드 받은 후 터미널에서 
 <pre>bin/install.sh</pre>
 라고 입력하면 KeyRemap4MacBook의 개인화 설정 파일인 private.xml을 덮어쓴 후 reload합니다.
 본 스크립트를 사용하기 전에 [KeyRemap4MacBook](http://pqrs.org/macosx/keyremap4macbook/)이 미리 설치되어있어야합니다.
