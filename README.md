@@ -4,7 +4,7 @@ KoreanKeyboard4MacBook
 맥북에서 가상화를 통해 사용하는 윈도우 내 한영 전환을 위한 레지스트리, KeyRemap4MacBook용 설정파일
 
 ## 윈도우 키보드 드라이버
-윈도우 한영키 사용을 위한 레지스트리 파일입니다. 윈도우에서 한영키가 있는 키보드를 위한 드라이버는 4가지가 있습니다. ([http://ko.wikipedia.org/wiki/언어_입력_키](http://ko.wikipedia.org/wiki/%EC%96%B8%EC%96%B4_%EC%9E%85%EB%A0%A5_%ED%82%A4))
+윈도우 한영키 사용을 위한 레지스트리 파일입니다. 윈도우에서 한영키가 있는 키보드를 위한 드라이버는 4가지가 있습니다. ([위키백과](http://ko.wikipedia.org/wiki/%EC%96%B8%EC%96%B4_%EC%9E%85%EB%A0%A5_%ED%82%A4))
 
 <table class="wikitable">
 <tbody><tr>
@@ -35,7 +35,7 @@ KoreanKeyboard4MacBook
 </tbody></table>
 
 
- 아래의 레지스트리를 통해 윈도우에서 키보드 드라이버를 바꿀 수 있습니다. ([http://support.microsoft.com/kb/927824/ko](http://support.microsoft.com/kb/927824/ko))
+ 아래의 레지스트리를 통해 윈도우에서 키보드 드라이버를 바꿀 수 있습니다. ([마이크로소프트 기술문서](http://support.microsoft.com/kb/927824/ko))
 
 ## 파일 설명
 각 디렉토리별 파일은 다음과 같습니다.
