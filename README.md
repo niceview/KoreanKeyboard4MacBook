@@ -100,7 +100,7 @@ KoreanKeyboard4MacBook
 ## 설치
 
 ### 레지스트리
-필요한 설정에 맞게 윈도우에서 <code>.reg</code> 파일을 열어서 레지스트리에 등록합니다.
+필요한 설정에 맞게 윈도우에서 <code>.reg</code> 파일을 열어서 레지스트리에 등록하고 재부팅합니다.
 
 ### KeyRemap4MacBook
 터미널에서 
