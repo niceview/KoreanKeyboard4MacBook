@@ -38,29 +38,46 @@ Windows Registry files for Korean keyboard settings...
  아래의 레지스트리를 통해 윈도우에서 키보드 드라이버를 바꿀 수 있습니다. [http://support.microsoft.com/kb/927824/ko](http://support.microsoft.com/kb/927824/ko)
 
 ## 파일 설명
+### WindowsRegistry/...
 <table>
 	<tr>
 		<th>파일명</th>
 		<th>설명</th>
 	</tr>
 	<tr>
-		<td><a href="">Korean_101_keyboard_type_1.reg</a></td>
+		<td><code>Korean_101_keyboard_type_1.reg</code></td>
 		<td>PC/AT 101키 호환 키보드(종류 1) 로 설정</td>
 	</tr>
 	<tr>
-		<td><a href="">Korean_101_keyboard_type_3.reg</a></td>
+		<td><code>Korean_101_keyboard_type_3.reg</code></td>
 		<td>PC/AT 101키 호환 키보드(종류 3) 로 설정</td>
 	</tr>
 	<tr>
-		<td><a href="">Korean_103_106_keyboard.reg</a></td>
+		<td><code>Korean_103_106_keyboard.reg</td>
 		<td>키보드 드라이버를 한글 키보드(103/106키) 로 설정</td>
 	</tr>
 	<tr>
-		<td><a href="">HanEng_Hanja_for_virtual_machine.reg</a></td>
+		<td><code>HanEng_Hanja_for_virtual_machine.reg</code></td>
 		<td>맥에서 외장형 한글키보드를 사용할 경우 입력된 한영키, 한자키를 윈도우에서 한영전환과 한자입력으로 인식할 수 있도록 키맵핑</td>
 	</tr>
 	<tr>
-		<td><a href="">Remove_HanEng_Hanja.reg</a></td>
+		<td><code>Remove_HanEng_Hanja.reg</code></td>
 		<td>한영키, 한자키 키맵핑을 제거</td>
 	</tr>
 </table>
+
+
+### KeyRemap4MacBook/...
+<table>
+	<tr>
+		<th>파일명</th>
+		<th>설명</th>
+	</tr>
+	<tr>
+		<td><code>private.xml</code></td>
+		<td>KeyRemap4MacBook 용 설정파일</td>
+	</tr>
+</table>
+
+## 다운로드
+[다운로드](https://github.com/niceview/KoreanKeyboard4macbook/archive/master.zip)
