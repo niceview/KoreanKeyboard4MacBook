@@ -8,6 +8,7 @@
         <name>Command_R to Command+Space</name>
         <not>VIRTUALMACHINE, REMOTEDESKTOPCONNECTION</not>
         <identifier>remap.commandR2commandSpace</identifier>
+        <device_only>DeviceVendor::APPLE_COMPUTER</device_only>
         <autogen>__KeyToKey__ KeyCode::COMMAND_R, KeyCode::SPACE, ModifierFlag::COMMAND_L, Option::NOREPEAT</autogen>
       </item>
       <item>
@@ -23,6 +24,7 @@
         <name>Option_R to Option+Return</name>
         <not>VIRTUALMACHINE, REMOTEDESKTOPCONNECTION</not>
         <identifier>remap.optionR2optionReturn</identifier>
+        <device_only>DeviceVendor::APPLE_COMPUTER</device_only>
         <autogen>__KeyToKey__ KeyCode::OPTION_R, KeyCode::RETURN, ModifierFlag::OPTION_L, Option::NOREPEAT</autogen>
       </item>
     </item>
