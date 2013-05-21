@@ -49,11 +49,11 @@ KoreanKeyboard4MacBook
 	</tr>
 	<tr>
 		<td><code>HanEng_Hanja_for_virtual_machine.reg</code></td>
-		<td>한영키, 한자키를 윈도우에서 한영전환과 한자입력으로 인식할 수 있도록 키맵핑</td>
+		<td><kbd>한/영</kbd>키, <kbd>한자</kbd>키를 윈도우에서 한영전환과 한자입력으로 인식할 수 있도록 키맵핑</td>
 	</tr>
 	<tr>
 		<td><code>Remove_HanEng_Hanja.reg</code></td>
-		<td>위의 한영키, 한자키 키맵핑을 제거</td>
+		<td>위의 <kbd>한/영</kbd>키, <kbd>한자</kbd>키 키맵핑을 제거</td>
 	</tr>
 	<tr>
 		<td><code>Korean_101_keyboard_type_1.reg</code></td>
@@ -125,7 +125,7 @@ KoreanKeyboard4MacBook
 	- Command_R to HanEng / Option_R to Hanja
 		<pre>
 		<code>한글 키보드(103/106키)</code>로 설정된 환경에서 사용합니다.
-		오른쪽<kbd>Command</kbd>키와 오른쪽<kbd>Option</kbd>키가 입력되면 각각 한영키, 한자키가 전송되도록 합니다.
+		오른쪽<kbd>Command</kbd>키와 오른쪽<kbd>Option</kbd>키가 입력되면 각각 <kbd>한/영</kbd>키, <kbd>한자</kbd>키가 전송되도록 합니다.
 		윈도우에 <code>HanEng_Hanja_for_virtual_machine.reg</code>가 등록되어있어야 합니다.
 		</pre>
 	- Command_R to Alt_R / Option_R to Ctrl_R
@@ -134,19 +134,49 @@ KoreanKeyboard4MacBook
 		<pre><code>PC/AT 101키 호환 키보드(종류 3)</code>로 설정된 환경에서 사용할 수 있습니다.</pre>
 - Make external keyboard HanEng, Hanja keys work in mac (except virtual machine, RDC)
 	<pre>
-	외장키보드의 한영키, 한자키를 맥 환경에서 한영전환과 한자 입력에 사용할 수 있게 합니다.
+	외장키보드의 <kbd>한/영</kbd>키, <kbd>한자</kbd>키를 맥 환경에서 한영전환과 한자 입력에 사용할 수 있게 합니다.
 	윈도우 환경에서는 <code>HanEng_Hanja_for_virtual_machine.reg</code>가 등록되어 있어야 합니다.
+
+	소형키보드의 경우 오른쪽<kbd>Alt</kbd>키, <kbd>Ctrl</kbd>키에 <kbd>한/영</kbd>키, <kbd>한자</kbd>키가 각인되어 있는 경우이므로
+	오른쪽<kbd>Alt</kbd>키, <kbd>Ctrl</kbd>키를 맵핑하고, <code>PC/AT 101키 호환 키보드(종류 1)</code>로 인식되도록
+	윈도우 환경에서는 <code>Korean_101_keyboard_type_1.reg</code>가 등록되어 있어야 합니다.
 	</pre>
 	- HanEng Key to Command+Space
-		<pre>외장키보드의 한영키를 맥 환경에서 한영전환에 사용합니다.</pre>
+		<pre>외장키보드의 <kbd>한/영</kbd>키를 맥 환경에서 한영전환에 사용합니다.</pre>
+	- Alt_R to Command+Space
+		<pre>외장키보드의 오른쪽<kbd>Alt</kbd>키를 맥 환경에서 한영전환에 사용합니다.</pre>
 	- Hanja Key to Option+Return
-		<pre>외장키보드의 한영키를 맥 환경에서 한자입력에 사용합니다.</pre>
+		<pre>외장키보드의 <kbd>한/영</kbd>키를 맥 환경에서 한자입력에 사용합니다.</pre>
+	- Ctrl_R to Option+Return
+		<pre>외장키보드의 오른쪽<kbd>Ctrl</kbd>키를 맥 환경에서 한영전환에 사용합니다.</pre>
 	
 ### 추천 설정
-오른쪽<kbd>Command</kbd>키와 오른쪽<kbd>Option</kbd>키를 한영전환과 한자 입력에 사용하기 위해서,
+사용하는 키보드의 종류에 따라 옵션을 선택합니다. 아래의 옵션들은 모두 중복 선택 하더라도 충돌하지 않습니다.
 
-- <code>Command_R to Command+Space</code>
-- <code>Option_R to Option+Return</code>
-- <code>Command_R to HanEng / Option_R to Hanja</code>
+1. 내장 키보드, 애플 외장키보드
+	- <code>Command_R to Command+Space</code>
+	- <code>Option_R to Option+Return</code>
+	- <code>Command_R to HanEng / Option_R to Hanja</code> 를 선택하고 윈도우에서 <code>HanEng_Hanja_for_virtual_machine.reg</code>를 등록
 
-를 선택하고 윈도우에서 <code>HanEng_Hanja_for_virtual_machine.reg</code>를 등록합니다.
+2. 오른쪽<kbd>Alt</kbd>키, <kbd>Ctrl</kbd>키가 존재하는 한글106키보드
+	- <code>HanEng Key to Command+Space</code>
+	- <code>Hanja Key to Option+Return</code>
+	- 윈도우에서 <code>HanEng_Hanja_for_virtual_machine.reg</code>를 등록
+
+3. 오른쪽<kbd>Alt</kbd>키, <kbd>Ctrl</kbd>키가 없는 소형 키보드
+	- <code>Alt_R to Command+Space</code>
+	- <code>Ctrl_R to Option+Return</code>
+	- 윈도우에서code>Korean_101_keyboard_type_1.reg</code>를 등록
+
+## 변경사항
+
+- 2013/5/21
+	- 오른쪽 <kbd>Alt</kbd>키와 오른쪽 <kbd>Ctrl</kbd>키를 각각 <kbd>한/영</kbd>키과 <kbd>한자</kbd>키로 사용하는 소형 블루투스 키보드에서도 정상적으로 작동하도록 제한을 둠.
+	- 소형 블루투스 키보드로도 맥에서 한영 전환과 한자입력에 사용되도록 기능을 추가함.
+- 2013/5/12
+	- KeyRemap4MacBook 정식버전(8.1.0)에 포함됨.
+- 2013/4/27
+	- KeyRemap4MacBook 베타버전에 포함됨.
+- 2013/4/23
+	- First Release
+	
