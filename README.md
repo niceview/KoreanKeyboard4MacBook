@@ -5,7 +5,7 @@ KoreanKeyboard4MacBook
 
 **윈도우에서 한/영, 한자키를 사용하기 위한 레지스트리 다운로드는 아래의 링크를 우클릭 - 다른이름으로 저장해서 윈도우에서 실행하시면 됩니다.**
 
-[한영 전환용 윈도우 레지스트리 다운로드](https://raw2.github.com/niceview/KoreanKeyboard4MacBook/master/WindowsRegistry/HanEng_Hanja_for_virtual_machine.reg)
+[한영 전환용 윈도우 레지스트리 다운로드](https://raw.githubusercontent.com/niceview/KoreanKeyboard4MacBook/master/WindowsRegistry/HanEng_Hanja_for_virtual_machine.reg)
 
 ## 윈도우 키보드 드라이버
 윈도우 한영키 사용을 위한 레지스트리 파일입니다. 윈도우에서 한영키가 있는 키보드를 위한 드라이버는 4가지가 있습니다. ([위키백과](http://ko.wikipedia.org/wiki/%EC%96%B8%EC%96%B4_%EC%9E%85%EB%A0%A5_%ED%82%A4))
